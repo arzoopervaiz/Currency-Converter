@@ -1,0 +1,32 @@
+{
+  "name": "908currency-converter",
+  "version": "1.0.0",
+  "description": "A Currency converter with use of inquirer, chalk, node.js and Typescript.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "app.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arzoopervaiz/Currency-Converter.git"
+  },
+  "author": "Arzoo Pervaiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arzoopervaiz/Currency-Converter/issues"
+  },
+  "homepage": "https://github.com/arzoopervaiz/Currency-Converter#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.12.7"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.19"
+  }
+}
